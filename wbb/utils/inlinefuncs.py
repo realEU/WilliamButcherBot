@@ -82,7 +82,7 @@ async def inline_help_func(__HELP__):
     answerss = [
         InlineQueryResultArticle(
             title="Inline Commands",
-            description="Help Related To Inline Usage.",
+            description="Help Related To Inline Plugins.",
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
             ),
@@ -91,7 +91,7 @@ async def inline_help_func(__HELP__):
         ),
         InlineQueryResultArticle(
             title="Gangsters’ Chat",
-            description="Get Link To Join The Gangsters’ Chat!",
+            description="Link To Join The Gangsters’ Chat!",
             input_message_content=InputTextMessageContent(
                 "https://telegram.dog/GangstersGroupp"
             ),
