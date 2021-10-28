@@ -29,7 +29,10 @@ from wbb.core.decorators.errors import capture_err
 from wbb.utils.functions import make_carbon
 
 __MODULE__ = "Carbon"
-__HELP__ = """/carbon - To Carbonise the given text/code..."""
+__HELP__ = """
+/carbon - To Carbonise the given text/code...
+Can be used as a reply too...
+"""
 
 
 @app.on_message(filters.command("carbon"))
