@@ -86,7 +86,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
             ),
-            thumb_url="https://hamker.me/cy00x5x.png",
+            thumb_url="https://i.ibb.co/cJz9t8s/Photo-2088531241.jpg",
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
@@ -95,7 +95,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "https://github.com/thehamkercat/WilliamButcherBot"
             ),
-            thumb_url="https://hamker.me/gjc9fo3.png",
+            thumb_url="https://i.ibb.co/cJz9t8s/Photo-2088531241.jpg",
         ),
     ]
     answerss = await alive_function(answerss)
@@ -127,7 +127,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://static2.aniimg.com/upload/20170515/414/c/d/7/cd7EEF.jpg",
+            thumb_url="https://i.ibb.co/cJz9t8s/Photo-2088531241.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
