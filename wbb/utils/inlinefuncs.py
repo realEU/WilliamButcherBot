@@ -94,7 +94,7 @@ async def inline_help_func(__HELP__):
             description="Get Github Respository Of Bot.",
             input_message_content=InputTextMessageContent(
                 "https://github.com/thehamkercat/WilliamButcherBot"
-                 disable_web_page_preview=True
+                disable_web_page_preview=True
             ),
             thumb_url="https://hamker.me/gjc9fo3.png",
         ),
