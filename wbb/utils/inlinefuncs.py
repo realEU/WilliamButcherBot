@@ -430,8 +430,8 @@ async def tg_search_func(answers, text, user_id):
 
 
 async def music_inline_func(answers, query):
-    chat_id = -1001445180719
-    group_invite = "https://t.me/joinchat/vSDE2DuGK4Y4Nzll"
+    chat_id = -1001743153793
+    group_invite = "https://t.me/joinchat/oWm90fY6BwFmODA0"
     try:
         messages = [
             m
