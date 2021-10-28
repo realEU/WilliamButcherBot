@@ -90,12 +90,12 @@ async def inline_help_func(__HELP__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Github Repo",
-            description="Get Github Respository Of Bot.",
+            title="Gangsters’ Chat",
+            description="Get Link To Join The Gangsters’ Chat!",
             input_message_content=InputTextMessageContent(
-                "https://github.com/thehamkercat/WilliamButcherBot"
+                "https://telegram.dog/GangstersGroupp"
             ),
-            thumb_url="https://i.ibb.co/cJz9t8s/Photo-2088531241.jpg",
+            thumb_url="https://i.ibb.co/BcC3HPJ/Photo-1453690249.jpg",
         ),
     ]
     answerss = await alive_function(answerss)
