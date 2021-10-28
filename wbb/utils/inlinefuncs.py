@@ -81,7 +81,7 @@ async def inline_help_func(__HELP__):
     )
     answerss = [
         InlineQueryResultArticle(
-            title="Inline Commands",
+            title="Inline Plugins",
             description="Help Related To Inline Plugins.",
             input_message_content=InputTextMessageContent(
                 "Click A Button To Get Started."
@@ -125,8 +125,8 @@ async def alive_function(answers):
 """
     answers.append(
         InlineQueryResultArticle(
-            title="Alive",
-            description="Check Bot's Stats",
+            title="Alive Stats",
+            description="Check OEXE’s Alive Stats.",
             thumb_url="https://i.ibb.co/cJz9t8s/Photo-2088531241.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
