@@ -93,7 +93,7 @@ async def inline_help_func(__HELP__):
             title="Gangsters’ Chat",
             description="Link To Join The Gangsters’ Chat!",
             input_message_content=InputTextMessageContent(
-                "https://telegram.dog/GangstersGroupp"
+                "https://tx.me/GangstersGroupp"
             ),
             thumb_url="https://i.ibb.co/BcC3HPJ/Photo-1453690249.jpg",
         ),
