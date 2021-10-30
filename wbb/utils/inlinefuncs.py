@@ -90,10 +90,10 @@ async def inline_help_func(__HELP__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="Gangsters’ Chat",
-            description="Link To Join The Gangsters’ Chat!",
+            title="• | • | •",
+            description="Shine getters...",
             input_message_content=InputTextMessageContent(
-                "https://tx.me/GangstersGroupp"
+                "https://tx.me"
             ),
             thumb_url="https://i.ibb.co/BcC3HPJ/Photo-1453690249.jpg",
         ),
