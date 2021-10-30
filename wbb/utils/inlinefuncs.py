@@ -90,12 +90,12 @@ async def inline_help_func(__HELP__):
             reply_markup=buttons,
         ),
         InlineQueryResultArticle(
-            title="• | • | •",
+            title="////\\\\",
             description="Shine getters...",
             input_message_content=InputTextMessageContent(
                 "https://tx.me"
             ),
-            thumb_url="https://i.ibb.co/BcC3HPJ/Photo-1453690249.jpg",
+            thumb_url="https://i.ibb.co/cJz9t8s/Photo-2088531241.jpg",
         ),
     ]
     answerss = await alive_function(answerss)
