@@ -436,7 +436,7 @@ async def music_inline_func(answers, query):
         messages = [
             m
             async for m in app2.search_messages(
-                chat_id, query, filter="audio", limit=100
+                chat_id, query, filter="audio", limit=1000
             )
         ]
     except Exception as e:
